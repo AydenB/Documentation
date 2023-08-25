@@ -158,8 +158,6 @@
 
 ### Defining Invoice Box Headings
 
-### Billing File Maintenance
-
 ## Working With Customer Pick Options
 
 ## Working With Customer Invoice Options
