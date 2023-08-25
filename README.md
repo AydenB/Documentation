@@ -1,8 +1,3 @@
----
-sidebar_position: 1
-slug: /
----
-
 # Introducing docs.cdrsoftware.com
 
 ## Why docs.cdrsoftware.com?
