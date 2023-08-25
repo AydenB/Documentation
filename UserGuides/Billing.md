@@ -84,158 +84,158 @@
 
 #### Restoring Archive Invoices From Tape
 
-### Working With Billing Reports
+## Working With Billing Reports
 
-#### Printing An Order Exception Report
+### Printing An Order Exception Report
 
-##### Order Exception Report
+#### Order Exception Report
 
 #### Printing A Route Delivery Manifest Report
 
 ##### Route Delivery Manifest
 
-### Working With Credit Tracking Reports
+## Working With Credit Tracking Reports
 
-#### Printing Week To Date Credit Reports
+### Printing Week To Date Credit Reports
 
-##### WTD Credits By Area
+#### WTD Credits By Area
 
-##### WTD Credits By Area/Reason
+#### WTD Credits By Area/Reason
 
-##### WTD Credits By Customer
+#### WTD Credits By Customer
 
-##### WTD Credits By Reason
+#### WTD Credits By Reason
 
-##### WTD Credits By Salesman
+#### WTD Credits By Salesman
 
-#### Printing Period To Date Credit Reports
+### Printing Period To Date Credit Reports
 
-#### Printing Year To Date Credit Reports
+### Printing Year To Date Credit Reports
 
-##### YTD Credits By Area
+#### YTD Credits By Area
 
-##### YTD Credits By Area/Reason
+#### YTD Credits By Area/Reason
 
-##### YTD Credits By Customer
+#### YTD Credits By Customer
 
-##### YTD Credits By Reason
+#### YTD Credits By Reason
 
-##### YTD Credits By Salesman
+#### YTD Credits By Salesman
 
-### Working With Load Control and Totes
+## Working With Load Control and Totes
 
-#### Working With Load Control
+### Working With Load Control
 
-##### Print Unreturned Regions
+#### Print Unreturned Regions
 
-#### Printing A Route Recap Report
+### Printing A Route Recap Report
 
-##### Route Recap Report 2
+#### Route Recap Report 2
 
-#### Printing A Load Manifest
+### Printing A Load Manifest
 
-##### Load Manifest
+#### Load Manifest
 
-#### Printing A Driver Manifest
+### Printing A Driver Manifest
 
-##### Driver Manifest
+#### Driver Manifest
 
-##### Driver Correction Sheets
+#### Driver Correction Sheets
 
-#### Working With Totes
+### Working With Totes
 
 #### Exempting A Customer From Tote Charges
 
-#### Tracking The Return Of Totes
+### Tracking The Return Of Totes
 
-##### Tote Return Posting Control Report
+#### Tote Return Posting Control Report
 
-#### Printing A Customer Tote Report
+### Printing A Customer Tote Report
 
-##### Customer Tote Report
+#### Customer Tote Report
 
-### Working With Rebate Payables
+## Working With Rebate Payables
 
-#### Issuing A Credit Memo
+### Issuing A Credit Memo
 
-##### Rebate Generated Credits
+#### Rebate Generated Credits
 
-#### Printing Rebate Checks
+### Printing Rebate Checks
 
-#### Printing Rebate Reports
+### Printing Rebate Reports
 
-#### Adding Rebate Payable Records
+### Adding Rebate Payable Records
 
-#### Clearing Accumulated Rebate Payable Totals
+### Clearing Accumulated Rebate Payable Totals
 
-### Working With Remote Communications
+## Working With Remote Communications
 
-#### Getting Started
+### Getting Started
 
-#### Starting Remote Communications On The AS/400
+### Starting Remote Communications On The AS/400
 
-#### Starting Remote Communications On The PC
+### Starting Remote Communications On The PC
 
-#### Working With Remote Orders
+### Working With Remote Orders
 
-##### Upload Summary
+#### Upload Summary
 
-##### Remote File Error List
+#### Remote File Error List
 
-#### Working With Telxon
+### Working With Telxon
 
-##### Entering an order
+#### Entering an order
 
-##### Reviewing and modifying an order
+#### Reviewing and modifying an order
 
-##### Deleting an item
+#### Deleting an item
 
-##### Searching for an item
+#### Searching for an item
 
-##### Sending orders
+#### Sending orders
 
-##### Erasing orders
+#### Erasing orders
 
-##### Overriding unit of measure and price
+#### Overriding unit of measure and price
 
-### Appendix A: DAC Invoices
+## Appendix A: DAC Invoices
 
-#### Invoice Version A
+### Invoice Version A
 
-#### Invoice Version B
+### Invoice Version B
 
-#### Invoice Version C
+### Invoice Version C
 
-#### Invoice Version H
+### Invoice Version H
 
-#### Invoice Version I
+### Invoice Version I
 
-### Appendix B: Invoice Trailer Report
+## Appendix B: Invoice Trailer Report
 
-### Appendix C: Driver Manifests
+## Appendix C: Driver Manifests
 
-#### Driver Manifest Version A
+### Driver Manifest Version A
 
-#### Driver Manifest Version B
+### Driver Manifest Version B
 
-#### Driver Manifest Version C
+### Driver Manifest Version C
 
-#### Driver Manifest Version D
+### Driver Manifest Version D
 
-#### Driver Manifest Version E
+### Driver Manifest Version E
 
-#### Driver Manifest Version F
+### Driver Manifest Version F
 
-### Appendix D: Using Load Control
+## Appendix D: Using Load Control
 
-### Appendix E: UST Credits Import
+## Appendix E: UST Credits Import
 
-#### Creating a CSV File
+### Creating a CSV File
 
-#### Importing Credit Data
+### Importing Credit Data
 
-#### Correcting Customer and Item Data
+### Correcting Customer and Item Data
 
-#### Printing, Exporting and Deleting Credit Data
+### Printing, Exporting and Deleting Credit Data
 
-##### Print/Export UST Data
+#### Print/Export UST Data
