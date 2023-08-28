@@ -122,7 +122,7 @@ Refer to [Working With Company A/P Options](#working-with-ap-options) for inform
 
 - Dates used for debit and credit journal entries when processing payments.
 
-# Working with Accounts Payable File Maintenance
+## Working with Accounts Payable File Maintenance
 
 The Accounts Payable File Maintenance applications are used to create:
 
@@ -242,7 +242,7 @@ If necessary, the Select Alternative Company application can be used before work
     - Optional: **A/P aging bucket 3 name** - a description of the third aging bucket, such as 61 to 90.
     - Optional: **A/P aging bucket 3 days** - the number of days which an invoice cannot exceed to be included in the third bucket.
     - Optional: **A/P aging bucket 4 name** - a description of the fourth aging bucket, such as 91 - 120.
-    - Optional: **A/P aging bucket 4 days** - the number of days which an invoice cannot exceed to be included in the fourth bucket. 
+    - Optional: **A/P aging bucket 4 days** - the number of days which an invoice cannot exceed to be included in the fourth bucket.
         > Note: When using the Vendor Account Inquiry application to display four columns of aging figures, the amount calculate for the fourth bucket is combined with the fifth bucket, and displayed in the far right column of the screen.
     - Optional: **A/P aging bucket 5 name** - a description of the fifth aging bucket, such as 121+.
     - Optional: **A/P aging bucket 5 days** - enter 999 for the number of days which an invoice cannot exceed to be included in the fifth bucket.
@@ -291,9 +291,9 @@ After company records are added, the values of several G/L options must be desig
 
 6. Enter data for the following fields:
 
-- Optional: **Suspense cost center/account** - the cost center number (3+4,n) and  the account number (5+4,n) used for the suspense total.
-- Optional: **Ret. earnings cost cntr/account** - the cost center number (3+4,n)  and the account number (5+4,n) used for the retained earnings total.
-- Optional: **Profit/loss cost cntr/account** - the cost center number (3+4,n) and  the account number (5+4,n) used for the net profit/loss total.
+    - Optional: **Suspense cost center/account** - the cost center number (3+4,n) and  the account number (5+4,n) used for the suspense total.
+    - Optional: **Ret. earnings cost cntr/account** - the cost center number (3+4,n)  and the account number (5+4,n) used for the retained earnings total.
+    - Optional: **Profit/loss cost cntr/account** - the cost center number (3+4,n) and  the account number (5+4,n) used for the net profit/loss total.
 
 7. Press \<Enter> when data entry is complete. The *Record added* message appears at  the bottom of the Company Maintenance screen.
 
@@ -348,7 +348,7 @@ After executing the Company A/P One Time Maintenance application (under the dire
 
 2. If necessary, enter *?* for the Bank code field and press \<Enter> to display a list of the previously added bank records on the Bank Selection screen.
 
-If desired, 1 (Select request) can be entered in the selection column to display, edit or delete a bank record, or the user can press \<F3> to redisplay the Bank Maintenance screen.
+    If desired, 1 (Select request) can be entered in the selection column to display, edit or delete a bank record, or the user can press \<F3> to redisplay the Bank Maintenance screen.
 
 3. If necessary, press \<F9> (Go to 'Add' mode) to display the Bank Maintenance (Add) screen.
 
@@ -656,28 +656,141 @@ Center (3,n) field. Contact CDR support personnel for additional information.
 17. Enter *YES* for the **A/P Auto Tape Recon** (3,a) field if monthly reconciliation with the bank is handled electronically. Contact CDR personnel for additional information.
 
 18. Enter  Y for the Print A/P Remittance Rpt (1,a) field to print a remittance report, similar to a check stub, for EFT payments.  
-19. Enter  Y (yes) for the GL Act# on AP Chk Reg-Y/N (1,a) field to designate that the account numbers which are debited in the General Ledger (when posting invoices) are printed on the check register. Refer to Working With A/P Item Records for information about the G/L Acct Number field which is used to designate these account numbers. 
+
+19. Enter  Y (yes) for the GL Act# on AP Chk Reg-Y/N (1,a) field to designate that the account numbers which are debited in the General Ledger (when posting invoices) are printed on the check register. Refer to Working With A/P Item Records for information about the G/L Acct Number field which is used to designate these account numbers.
+
 20. If A/P laser printer checks are used, enter one of the following values for the A/P Laser Check?(No/1/2) (1,a) field to designate the type of printer used. If the continous form check is used, enter N (no). Refer to the A/P Check Forms document for additional information.
     - *1* a printer with IPDS (intelligent printer data stream) capability is used for printing the checks.
     - *2* a printer without IPDS capability is used for printing the checks.  
-21.  Enter  Y (yes) for the Use GL hdr desc 2 for dtl (1,a) field to designate that text 
-entered for the Desc 2 field of the Journal Entry screen is printed as the journl 
-entry’s detail information; otherwise, the account name/description from the chart 
-of account is used.  
-22.  Enter  *YES for the Print Invoice Entry Edit (6,a) field to designate that the 
-Invoice Entry Edit List is automatically printed when an A/P invoice batch is 
-posted.  
-23.  Enter  *YES for the Allow Auto EFT & Man Chks (6,a) field to designate 
-that EFT and manual check payments can be automatically posted when users 
-enter vendor invoices. Refer to Automatically Posting Manual Payments and 
-Automatically Posting EFT Payments for additional information. 
-24.  Press <Enter>.  
-25.  Press <Enter> when prompted to confirm. The Work With A/P Options  screen 
-appears.                                                                  
+
+21. Enter  Y (yes) for the Use GL hdr desc 2 for dtl (1,a) field to designate that text entered for the Desc 2 field of the Journal Entry screen is printed as the journl entry’s detail information; otherwise, the account name/description from the chart of account is used.  
+
+22. Enter  *YES for the Print Invoice Entry Edit (6,a) field to designate that the Invoice Entry Edit List is automatically printed when an A/P invoice batch is posted.  
+
+23. Enter  *YES for the Allow Auto EFT & Man Chks (6,a) field to designate that EFT and manual check payments can be automatically posted when users enter vendor invoices. Refer to Automatically Posting Manual Payments and Automatically Posting EFT Payments for additional information.
+
+24. Press \<Enter>.
+
+25. Press \<Enter> when prompted to confirm. The Work With A/P Options screen appears.
 
 ### Working With Recurring Invoice Records
 
+After the vendor records are added, the Vendor Maintenance and Recurring Invoice Maintenance screens are used to add recurring invoice records. These are used to quickly and accuarately process invoices for expenses such as monthly rent payments. Refer to Printing Multiple Reference Lines for information about using recurring invoices to print multiple text lines on a check stub. The instructions given below, which describe adding recurring invoice records, can also be followed to edit a record.
+
+1. Select option 1 (Vendor) from the A/P File Maintenance screen. The Vendor Maintenance screen appears.
+
+2. Enter 7 (Recurring Invoices) in the selection column of the desired vendor’s record, and press \<Enter>. The Recurring Invoice Maintenance (Display) screen appears with recurring invoice records if any have been previously added for the vendor.
+
+3. Press \<F6> (Add Recurring Invoice). The Recurring Invoice Maintenance (Add) screen appears.
+
+4. To add a recurring invoice record, enter data for the following fields:
+    - **Terms** (2,a) - a terms code previously defined by the user with the Terms Code Maintenance screen. If necessary, enter *?* and press \<Enter> to select a terms code from the Vendor Terms Select screen.
+    - Optional: **Reference** (30,a) - the text which appears on the stub if a system generated check is printed by the user.
+    - Optional: **Max Nbr Select** (5,n) - the maximum number of times that the recurring invoice will be used. A warning message is displayed during invoice entry if the number is exceeded.
+    - **Default cost center** (3+4,n) - the cost center number which can be used when posting the invoice and its payment. This value is used as the default value of the **Cost Center** field (see below) when A/P items are added to the recurring invoice, but can be overridden if necessary. The cost center number appearing for the **Default cost center** field defaults from the cost center number of the **A/P Account Number** field of the company’s A/P options. Refer to Working With Company A/P Options for additional information.
+    - Optional: **Max Amt Select** (11.2,n) - the maximum total amount that will be paid when the recurring invoice is used. A warning message is displayed during invoice entry if the amount is exceeded.
+
+5. To add an item to the recurring invoice record, enter data for the following fields:
+
+    - Item (15,a) - item code previously defined by the user with the Item Maintenance screen. If necessary,enter ? and press \<Enter> to select an item code from the Item Selection screen. The user can override this value when it appears during invoice entry.
+    - Desc (30,a) - the description of the item, which defaults from the item record, can be overridden.
+    - Qty (7,n) - the quantity of the item being invoiced.
+    - Price (7.2,n) - the vendor’s billing price for a single quantity of the item.
+    - Cost Center (3+4,n) - the cost center number, which defaults from the Default Cost Center field (see above), can be overridden. Note: The Cost Center field name does not appear on the Recurring Invoice Maintenance (Add) screen.
+    - G/L Account # (5+4,n) - the account number that is debited in General Ledger when invoices are posted. This value defaults from the item record, but can be overridden. Note: The G/L Account # field name does not appear on the Recurring Invoice Maintenance (Add) screen.
+    - Disc (1,a) - the value of this field, which defaults from the item record, can be overridden, and indicates if a discount can be taken on the item. The valid values of this field are Y (yes) and N (no).
+
+6. Continue adding line items, and press \<Enter> when the recurring invoice record is complete. Values appear for the following fields:
+
+    - **Ext Amt** - vendor’s billing price for the total quantity of the items of each line item.
+    - **Invoice total** - vendor’s total billing price, before any available discount, for the recurring invoice.
+    - **Disc available** - total payment discount amount that can be received for the recurring invoice according to the designated payment terms record.
+
+7. Enter *Y*(yes) for the Confirm field, and press \<Enter> when prompted to confirm. The Recurring Invoice Maintenance (Display) screen appears. During the course of adding recurring invoice records for a vendor, the 2=Change option can be used to edit the records.
+
+8. Continue adding recurring invoice records for the vendor, or press \<F3> to exit. The Vendor Maintenance \<Display> screen appears.
+
+9. Continue adding recurring invoice records for other vendors, or press \<F3> to exit. The A/P File Maintenance screen appears. Refer to Working With Accounts Payable Reports for information about printing a complete list of all the recurring invoices.
+
 ## Working With Vendor Invoices
+
+The Invoice Entry/Update application (option 1 of the Accounts Payable screen) is primarily used to add and edit batches of vendor invoices. The application is also used to post invoices to General Ledger.
+
+Credit memos are handled by the A/P System in the same manner as invoices; therefore, references to “invoices” below also include credit memos.
+
+The Debit/Credit Maintenance application (option 2 of the Accounts Payable screen) is used to credit and debit vendor invoices which are posted, but not yet paid.
+
+If the DAC Purchasing System is used to transfer purchase orders to Accounts Payable, vendor invoices are automatically added for A/P users who can edit (if necessary) the invoices before posting them.
+
+Below are the screens used during the process of working with vendor invoices.
+
+The A/P Invoice Posting (Enter) screen is used to begin the invoice batch entry and editing processes. The F8 (Select batch) key is used to select previously entered invoice batches including those automatically added if the DAC Purchasing System is used to transfer purchase orders to Accounts Payable.
+
+The **Psoting date** field, which designates the posting date of the invoice batch, used for posting entries to the General Ledger if B is entered for the **Inv jrnl entry method** field of a company record. Refer to Working With Company A/P Options for additional information.
+
+The **Control total** field designates the total net amount of all the invoices of a batch.
+
+The Batch Selection screen is used to select invoice batches for deleting, editing and posting, including those automatically added if the DAC Purchasing System is used to transfer purchase orders to Accounts Payable. The *P=Print Edit List* option of this screen is used to print a detailed report of the invoices of a batch.
+
+The A/P Invoice Posting (Add) screen is used to add an individual invoice to an invoice batch. It also appears when users are selecting batches to edit and post.
+
+The values of the **Voucher** and **Batch** fields appearing on the screen above are automatically generated by the Accounts Payable System, and cannot be changed by the user.
+
+The cost center number appearing for the **Dft cost center** field, which can be changed by the user, defaults from the cost center number of the **A/P account number** field of the company’s A/P options. Refer to Working With Company A/P Options for additional information.
+
+The value of the **Dft cost center** field is used as the default value of the **Cost Center** field (described below) when A/P items are added to the invoice.
+
+During the course of entering an invoice, the following function keys can be used:
+
+- F4 (Invoice review) - allows users to display information about all the previously entered invoices of the batch. If the Invoice Review screen (see below) does not appear after pressing \<F4>, no invoices have been added to the batch.
+
+- F14 (Recurring invoices) - allows users to add a recurring invoice to the batch.
+
+- F16 (Vendor Maintenance) - interrupts the entry of an invoice to allow users to work with A/P vendor records. Refer to Working With Vendor Records for additional information.
+
+The Invoice Review screen appears after pressing \<F4> (Invoice review) at the A/P Invoice Posting screens. During the course of using the Invoice Review screen, the following options can be used:
+
+- *2=Change* - the A/P Invoice Posting (Change) screen appears (see below). The user can make numerous changes to the invoice including editing, adding and deleting items.
+
+- *4=Delete* - the invoice is deleted from the batch. After entering *4* in the selection column next to the voucher number of the desired invoice, press \<Enter>.
+
+The values of the following fields (listed in alphabetical order) are system-generated when POs are transferred to Accounts Payable from DAC Purchasing:
+
+- **Cost Center** - the cost center number which is used when posting the invoice. The value of the **Dft cost center** field (described above) is used as the default value of the **Cost Center** field. The **Cost Center** field name will be different if another value is entered for the **Cost cntr hdr** field of the Company Maintenance (G/L) screen. Refer to [Working With Company G/L Options](#working-with-company-gl-options) for additional information.
+
+- **Desc** (30,a) - the A/P item’s description. Refer to [Working With A/P Item Records](#working-with-ap-item-records) for additonal information.
+
+- **Disc due** - the date by which the vendor must receive payment for the distributor to qualify for a cash discount. Refer to Working With Terms Records for information about the **Disc due days** and **Disc due dte** fields which are used to calculate the discount due date. Also refer to [Working With A/P Options](#working-with-ap-options) for information about the **Take A/P Disc If Past Due Date** field which can be used to make discounted payments to vendors when an invoice is past due.
+
+- **Discount** - *Y* (yes) designates that the distributor can qualify for a cash discount for the item, and the calculated amount of the discount appears. Refer to Working With A/P Item Records for information about the **Discount allowed** field. Refer to [Working With Company A/P Options](#working-with-company-ap-options) for information about the **Allow discount override** field which designates if the values of the **Discount** fields can be changed when processing invoice batches.
+
+- **Due date** - the date by which the vendor must receive payment before the invoice is considered past due. Refer to Working With Terms Records for information about calculating the payment due date.
+
+- **G/L Account** - the account number that is debited when posting the invoice. Refer to [Working With A/P Item Records](#working-with-ap-item-records) for information about the **G/L Account** field.
+
+    >Note: The **G/L Account** field name will be different if another value is entered for the **Account header** field of the Company Maintenance (G/L) screen. Refer to [Working With Company G/L Options](#working-with-company-gl-options) for additional information.
+
+- **Inv**. - vendor’s invoice number.
+
+- **Inv date** - vendor’s invoice date is used for posting entries to General Ledger if I is entered for the **Inv jrnl entry method** field of a company record.
+
+- **Item** - an A/P item code. Refer to [Working With A/P Item Records](#working-with-ap-item-records) for additional information. Refer to Calculating An A/P Allowance for information about using the **Item**, **Price** and **Qty** fields to calculate an allowance for an invoice.
+
+- **Pay date** - the date by which the distributor intends to pay the vendor. Refer to [Working With A/P Options](#working-with-ap-options) for information about using the **Default Pay Date From** field to designate the default pay date. Also refer to [Working With A/P Options](#working-with-ap-options) for information about using the **A/P Check Date** field to designate that the pay date is used for posting entries to the payment journal.
+
+- **Price** - the item’s net cost. The default value of the **Price** field appears if it was entered for the Actual cost field of the A/P item’s record. Refer to [Working With A/P Item Records](#working-with-ap-item-records) for additional information. Also refer to [Calculating An A/P Allowance](#calculating-an-ap-allowance) for information about using the **Item**, **Price** and **Qty** fields to calculate an allowance for an invoice.
+
+- **Rcv Dte** - the date on which the order was received from the vendor. The value of the **Rcv Dte** field is used to print the A/P Tobacco Invoice Report. Refer to [Working With Accounts Payable Reports](#accounts-payable-monthly-report) for additional information.
+
+- **Ref** - text printed on check stubs, the A/P Invoice Transaction Register report, and A/P invoice journal reports. When purchase orders are transferred to Accounts Payable from DAC Purchasing, the PO numbers are automatically entered for the Ref field.
+
+    Refer to [Printing Multiple Reference Lines](#printing-multiple-refrence-lines) for information about printing a check stub containing more than one line of text.
+
+- **Terms** - the vendor’s payment terms.
+
+- **Vendor** - vendor code.
+
+The A/P DR/CR Maintenance screen is used to credit and debit vendor invoices which are posted, but not yet paid. Refer to [Adjusting A Posted Invoice](#adjusting-a-posted-invoice) for additional information.
 
 ### Adding An Invoice Batch
 
