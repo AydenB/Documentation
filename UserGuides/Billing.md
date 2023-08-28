@@ -90,9 +90,9 @@
 
 #### Order Exception Report
 
-#### Printing A Route Delivery Manifest Report
+### Printing A Route Delivery Manifest Report
 
-##### Route Delivery Manifest
+#### Route Delivery Manifest
 
 ## Working With Credit Tracking Reports
 

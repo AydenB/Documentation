@@ -24,7 +24,7 @@ Task - Common with procedures and user guides.
 
 Important with such projects is consistency. Often this is resolved with something known as a style guide. Style guides might be formal or informal. Often content management systems provide basic style attributes.
 
-Included with consistency is terminology. Do not lazily call a connection a jack in one place and a port in another place -- use the technically correct term as applicable.
+Included with consistency is terminology. Do not lazily call an order an order in one place and a ticket in another place -- use the technically correct term as applicable.
 
 Target audience is important. Writing for a seasoned IT professional will presume understanding many terms and phrases, but a less knowledgeable audience will need those words and phrases explained. This type of audience analysis is called "skill of the craft."
 
