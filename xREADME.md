@@ -44,6 +44,4 @@ Links to disaster recovery procedures.
 
 A common debate about such documentation is who is the target audience? When in doubt, regardless of subject matter expert (SME) egos, is write to the lowest common denominator. Often this means the newest support person or technician, somebody who is not yet familiar with the system or company but needs guidance to learn. Some SMEs "loathe" that kind of detail, but in a disaster that kind of detail will be much welcomed by the newest person stuck working the weekend rotation for the very first time.
 
-Murphy's Law: "Anything that can go wrong will go wrong." Often that means when the proverbial poop hits the fan, the event will happen when the SME is on vacation or fully intoxicated on a Saturday night. Good documentation will help anybody faced with resolving the dilemma and avoid post traumatic stress disorder.
-
-Good luck and have fun!
+Murphy's Law: "Anything that can go wrong will go wrong." Often that means when the proverbial poop hits the fan, the event will happen when the SME is on vacation. Good documentation will help anybody faced with resolving the dilemma.
