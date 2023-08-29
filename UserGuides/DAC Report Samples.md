@@ -4,7 +4,7 @@
 
 ### Company Profile Report (Week-To-Date and Year-To-Date)
 
-### Company Profile Report (Daily and Period-To-Date) 
+### Company Profile Report (Daily and Period-To-Date)
 
 ## Salesman Profile Reports
 
@@ -88,7 +88,7 @@
 
 ### Invoice Exception Report
 
-### Invoice Register 
+### Invoice Register
 
 ### Large Credits Report
 
