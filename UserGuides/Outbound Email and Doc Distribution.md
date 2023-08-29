@@ -1,4 +1,6 @@
-# Working With Document Distribution Records
+# Outbound Email and Doc Distribution
+
+## Working With Document Distribution Records
 
 ### Emailing Invoices and Credit Memos
 

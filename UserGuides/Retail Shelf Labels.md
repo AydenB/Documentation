@@ -1,6 +1,6 @@
 # Retail Shelf Labels
 
-## Working With Retail Shelf Labels 
+## Working With Retail Shelf Labels
 
 ### Working With Retail Shelf Label Batches
 
